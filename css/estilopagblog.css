@@ -1,0 +1,95 @@
+p#experiencia{
+                font-size :15px;
+                font-style:italic;
+                color :rgb(255, 0, 94);
+            }
+            p#todo-lo-aprendido{
+                font-size :15px;
+                font-style:arial;
+                color :rgb(9, 9, 224);
+            }
+            p#gustaria-aprender{
+                font-size : 15px;
+                font-style: Helvetica;
+                color :rgb(207, 38, 16);
+
+            }
+            h1{
+                background:rgb(11, 143, 214);
+            }
+            h2{
+                background:rgb(255, 170, 0);
+            }
+            h4{
+                background:rgb(62, 209, 25);
+            }
+            body{
+                background: yellow;
+            }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: #1e1e1e;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu{
+    width: auto;
+    float:right;
+    margin-top: 19px;
+    margin-right: 35%;
+    
+}
+
+.menu ul{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #b7b7b7;
+}
+
+.menu li a:hover{
+    color: white;
+}
+
+#check{
+    display: none;
+}
+.icon-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
